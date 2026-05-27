@@ -1,0 +1,415 @@
+
+const company = [
+    {
+        "company": "Harness",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Uber",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Kotak",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Stripe",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Rippling",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "ByteDance",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Quizizz (wayground)",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "LinkedIn",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Zepto",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Emergent Lab",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Microsoft",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Zamp.ai",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Artigen",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Rubrik",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Amazon",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Cred",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Goldman Sachs",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Media.net",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Publicis Sapient",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Salesforce",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "CoinBase",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Tower Research",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Databricks",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "ShareChat",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Adobe",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "ServiceNow",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Mindtickle",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Buffer",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "www.workatastartup.com",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Doordash",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "ethos life",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Forward Network",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "DE Shaw",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "booking.com",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "High Level",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "digitalocean",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "apollo.io",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Agoda",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Atlassian",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "PayPay",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "PayPal",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Airbnb",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Apple",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Deel",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "DP World",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Smallest.ai",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Weaver Finance",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Headout",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Signoz",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Wishlink",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Tekion",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Arena Club",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Loop AI",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Enterpret",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "SkyFlow",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Super Money",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "ShopOS.ai",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Deliveroo",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Oleria Security",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Liberis",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Sumo Logic",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Yiplit",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "Veza",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    },
+    {
+        "company": "INDMoney",
+        "isApplied": false,
+        "isInterview": false,
+        "isStatus": null
+    }
+]
+
+
+const Filter = {
+    "isApplied": false,
+    "isInterview": false,
+    "isStaus": null
+}
+
+// const AppliedFilter = {
+//     "isApplied": true
+// }
+const getCompany = (AppliedFilter) => {
+    res = company.filter((c) => (c.isApplied === AppliedFilter.isApplied && c.isInterview === AppliedFilter.isInterview ))
+        .map((item) => item.company)
+    return res
+}
+
+console.log(getCompany(Filter))
+
+
+
+
+
+
+
+
+
+
